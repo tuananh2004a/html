@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Đặt khối ra giữa màn hình */
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.title {
+    padding: 10px 0;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+/* Style cho lưới blog */
+.blogs .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.blogs .blog__item {
+    width: calc(25% - 10px);
+    position: relative;
+}
+
+.blogs .blog__item img {
+    width: 100%;
+}
+/* Style cho khung nội dung chèn lên trên ảnh */
+.blogs .blog__item .blog__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    height: 100%;
+    color: white;
+    opacity: 0;
+    font-size: 14px;
+    transition: 1s all;
+}
+/* Hiệu ứng hover */
+.blogs .blog__item:hover .blog__content {
+    opacity: 1;
+}

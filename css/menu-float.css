@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+/* Đặt khối ra giữa màn hình */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* Style menu ngang */
+
+nav {
+    background-color: blue;
+    width: 100%;
+    float: left;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding:10px 20px;
+}
+
+/* Style cho lưới blogs */
+.blogs .blog__item {
+    width: 33.33333333%;
+    float: left;
+    padding: 10px;
+}
+
+.blogs .blog__item img {
+    width: 100%;
+}
+
+h3 {
+    margin-top: 10px;
+}

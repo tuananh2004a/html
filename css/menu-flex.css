@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+/* Đặt khối ra giữa màn hình */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* Style menu ngang */
+
+nav {
+   background-color: blue;
+}
+
+nav ul {
+   display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+   
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+/* Style cho lưới blogs */
+
+.blogs .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blogs .blog__item {
+    padding: 10px;
+    flex-basis: 3.33333333%;
+}
+
+.blogs .blog__item img {
+    width: 100%;
+}
+
+h3 {
+    margin-top: 10px;
+}

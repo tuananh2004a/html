@@ -1,0 +1,45 @@
+
+.blogs {
+    width: 800px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.blogs .container {
+    background-color: rgb(200, 32, 116);
+    display: flex;
+    padding: 20px 50px;
+    color: white;
+}
+
+.blogs .blog__item {
+    padding: 10px;
+}
+
+.blogs .blog__item img {
+    width: 100%;
+}
+
+.container h2 {
+    margin-top: 10px;
+}
+
+.center h2 {
+    color: rgb(208, 29, 59);
+}
+
+.blogs .center {
+    background-color: rgb(239, 225, 233);
+    display: flex;
+    padding: 20px 50px;
+}
+
+.item__pink {
+    color: white;
+    background-color: rgb(200, 32, 116);
+    padding: 15px;
+}
+
+.item__pink h2 {
+    color: white;
+}
